@@ -26,5 +26,6 @@ if (inputMagnitude != 0)
 } else sprite_index = spriteIdle;
 if (_oldSprite != sprite_index) localFrame = 0;
 
-
+//Update image index
+PlayerAnimateSprite();
 
