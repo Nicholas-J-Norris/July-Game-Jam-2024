@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"MACROS","order":1,"path":"scripts/MACROS/MACROS.yy",},
+    {"name":"PlayerCollision","order":2,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
+    {"name":"sCollision","order":2,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
   ],
 }
