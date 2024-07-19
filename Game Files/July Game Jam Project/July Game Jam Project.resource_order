@@ -17,6 +17,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"rInit","order":2,"path":"rooms/rInit/rInit.yy",},
+    {"name":"rVillage","order":1,"path":"rooms/rVillage/rVillage.yy",},
     {"name":"MACROS","order":1,"path":"scripts/MACROS/MACROS.yy",},
     {"name":"PlayerCollision","order":2,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
     {"name":"PlayerStateFree","order":3,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
