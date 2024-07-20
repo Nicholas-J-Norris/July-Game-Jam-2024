@@ -40,6 +40,8 @@
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
     {"id":{"name":"PlayerAnimateSprite","path":"scripts/PlayerAnimateSprite/PlayerAnimateSprite.yy",},},
     {"id":{"name":"PlayerCollision","path":"scripts/PlayerCollision/PlayerCollision.yy",},},
+    {"id":{"name":"PlayerStateFree","path":"scripts/PlayerStateFree/PlayerStateFree.yy",},},
+    {"id":{"name":"PlayerStateRoll","path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},},
     {"id":{"name":"sInventory","path":"sprites/sInventory/sInventory.yy",},},
     {"id":{"name":"sItems","path":"sprites/sItems/sItems.yy",},},
