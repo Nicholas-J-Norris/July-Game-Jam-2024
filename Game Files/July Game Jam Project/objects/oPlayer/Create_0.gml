@@ -1,3 +1,7 @@
+//Get layer ID for Collision
+collisionMap = layer_tilemap_get_id(layer_get_id("Collision"));
+
+
 //Keeps sprite from flickering through frames
 image_speed = 0;
 
