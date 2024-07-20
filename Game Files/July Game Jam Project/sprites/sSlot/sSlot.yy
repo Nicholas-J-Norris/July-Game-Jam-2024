@@ -13,13 +13,15 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"b53c9769-3c48-4322-b655-df7048c1cb46","name":"b53c9769-3c48-4322-b655-df7048c1cb46","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"03da1641-b716-4194-9a54-b2ecc63cd120","name":"03da1641-b716-4194-9a54-b2ecc63cd120","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c0425e8b-3347-475b-8f66-09397c7d4d8a","blendMode":0,"displayName":"default","isLocked":false,"name":"c0425e8b-3347-475b-8f66-09397c7d4d8a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"18bd8de0-a7ef-4935-a956-cb28e8d3ad27","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"18bd8de0-a7ef-4935-a956-cb28e8d3ad27","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c0425e8b-3347-475b-8f66-09397c7d4d8a","blendMode":0,"displayName":"default","isLocked":false,"name":"c0425e8b-3347-475b-8f66-09397c7d4d8a","opacity":57.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sSlot",
   "nineSlice":null,
@@ -49,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":2.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -71,6 +73,9 @@
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b53c9769-3c48-4322-b655-df7048c1cb46","path":"sprites/sSlot/sSlot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"77adac8b-fb7a-4a64-b118-fea48d3c78b8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"03da1641-b716-4194-9a54-b2ecc63cd120","path":"sprites/sSlot/sSlot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ce373fce-7e93-459a-92b9-88a6a18b6cd2","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

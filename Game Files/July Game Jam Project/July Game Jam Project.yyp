@@ -35,6 +35,7 @@
   "name":"July Game Jam Project",
   "resources":[
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},},
+    {"id":{"name":"oMouse","path":"objects/oMouse/oMouse.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
     {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"id":{"name":"InventoryFunctions","path":"scripts/InventoryFunctions/InventoryFunctions.yy",},},

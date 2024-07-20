@@ -34,3 +34,12 @@ function InventoryAdd(rootObject,itemType)
 	else return false;
 }
 
+
+function InventorySwap(objectFrom,slotFrom,objectTo,slotTo)
+{
+	var _itemFrom = objectFrom.inventory[slotFrom]
+	objectFrom.inventory[slotFrom] = objectTo.inventory[slotTo];
+	objectTo.inventory[slotTo] = _itemFrom;
+}
+
+	
