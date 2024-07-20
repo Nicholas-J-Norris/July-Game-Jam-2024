@@ -27,14 +27,6 @@ y += vSpeed;
 
 
 
-
-
-
-
-
-
-
-
 return _collision;
 
 }
