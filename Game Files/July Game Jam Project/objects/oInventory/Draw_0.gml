@@ -15,6 +15,6 @@ for (var i = 0; i < INVENTORY_SLOTS; i += 1)
 	draw_sprite(sSlot,0,xx,yy)
 	if (inventory[i] != -1)
 	{
-		draw_sprite(sItems,inventory[1],xx,yy);
+		draw_sprite(sItems,inventory[i],xx,yy);
 	}
 }

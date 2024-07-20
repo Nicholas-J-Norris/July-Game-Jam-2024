@@ -18,6 +18,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oInventory","order":1,"path":"objects/oInventory/oInventory.yy",},
+    {"name":"InventoryFunctions","order":5,"path":"scripts/InventoryFunctions/InventoryFunctions.yy",},
     {"name":"MACROS","order":1,"path":"scripts/MACROS/MACROS.yy",},
     {"name":"PlayerCollision","order":2,"path":"scripts/PlayerCollision/PlayerCollision.yy",},
     {"name":"PlayerStateFree","order":3,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
