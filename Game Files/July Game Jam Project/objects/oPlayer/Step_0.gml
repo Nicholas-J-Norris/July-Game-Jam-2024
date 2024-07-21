@@ -16,8 +16,3 @@ script_execute(state);
 x += hSpeed;
 y += vSpeed;
 
-// Debug messages
-show_debug_message("x: " + string(x));
-show_debug_message("y: " + string(y));
-show_debug_message("hSpeed: " + string(hSpeed));
-show_debug_message("vSpeed: " + string(vSpeed));
