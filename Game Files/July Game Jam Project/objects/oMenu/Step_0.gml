@@ -1,42 +1,34 @@
-//Mouse Menu Control
-
-
-mouseOver = false;
-
-if (point_in_rectangle(mouse_x,mouse_y,x,y,x+width,y+height))
+if (mouse_x != mxPrev || mouse_y != myPrev)
 {
-	mouseOver = true;
-	if (mxPrev != mouse_x) || (myPrev != mouse_y)
-	{
-		var _mouseHoverLine = (mouse_y - y) div heightLine;
-		if !(description == -1) _mouseHoverLine-=1;
-		if (_mouseHoverLine < 0) _mouseHoverLine = 0;
-		if (_mouseHoverLine > optionsCount-1) _mouseHoverLine = optionsCount-1;
-		hover = _mouseHoverLine;
-	}
+    mxPrev = mouse_x;
+    myPrev = mouse_y;
+    
+    // Check hover over options
+    var _desc = !(description == -1);
+    for (var l = 0; l < (optionsCount + _desc); l++)
+    {
+        var option_y = y + l * heightLine;
+        if (mouse_x > x - margin && mouse_x < x + width + margin && mouse_y > option_y - margin && mouse_y < option_y + heightLine + margin)
+        {
+            if (l != hover)
+            {
+                hover = l - _desc;
+                break;
+            }
+        }
+    }
 }
 
-
-//Keyboard Menu Control
-hover += keyboard_check_pressed(vk_down) - keyboard_check_pressed(vk_up);
-
-//Menu Wrap
-if (hover >optionsCount-1) hover = 0;
-if (hover < 0) hover = optionsCount-1;
-
-//Selection check
-if ((mouse_check_button_pressed(mb_left) && mouseOver) || keyboard_check_pressed(vk_enter))
+if (mouse_check_button_pressed(mb_left))
 {
-	//Check for second branch
-	if (array_length(options[hover]) ==2)
-	{
-		//If branch exists, assign function
-		var _func = options[hover][1];
-		if (_func != -1) _func();
-	}
-	instance_destroy();
+    if (hover >= 0 && hover < optionsCount)
+    {
+        // Execute the selected option
+        var selectedOption = options[hover][1];
+        if (selectedOption != -1)
+        {
+            script_execute(selectedOption);
+        }
+        instance_destroy();
+    }
 }
-
-mxPrev = mouse_x;
-myPrev = mouse_y;
-

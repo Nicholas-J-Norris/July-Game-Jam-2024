@@ -5,7 +5,7 @@ function Menu(_x, _y, _options, _description = -1)
         options = _options;
         description = _description;
         optionsCount = array_length(_options);
-        hoverMarker = "* ";
+        hoverMarker = "- ";
         
         // Set up size
         margin = UI_BOXMARGIN;
@@ -19,7 +19,7 @@ function Menu(_x, _y, _options, _description = -1)
         }
         width += string_width(hoverMarker);
         
-        heightLine = 21;
+        heightLine = 30;
         height = heightLine * (optionsCount + !(_description == -1));
         
         widthFull = width + margin * 2;
