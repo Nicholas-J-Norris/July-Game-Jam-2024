@@ -21,6 +21,7 @@
     {"name":"oInventory","order":1,"path":"objects/oInventory/oInventory.yy",},
     {"name":"oMenu","order":3,"path":"objects/oMenu/oMenu.yy",},
     {"name":"oMouse","order":2,"path":"objects/oMouse/oMouse.yy",},
+    {"name":"oPauseMenu","order":5,"path":"objects/oPauseMenu/oPauseMenu.yy",},
     {"name":"rPauseMenu","order":3,"path":"rooms/rPauseMenu/rPauseMenu.yy",},
     {"name":"rTitleMenu","order":2,"path":"rooms/rTitleMenu/rTitleMenu.yy",},
     {"name":"BeginGame","order":7,"path":"scripts/BeginGame/BeginGame.yy",},
