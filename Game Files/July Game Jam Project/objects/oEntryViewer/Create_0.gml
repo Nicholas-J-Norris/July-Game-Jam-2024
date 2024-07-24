@@ -2,8 +2,8 @@
 // You can write your code in this editor
 var entryText = "";
 
-width = 2000;
-height = 2000;
+width = 1700;
+height = 1800;
 
 opBorder = 8;
 opSpace = 16;

@@ -11,3 +11,4 @@ entryText = ["Dear Jimbo\n\n suck it, the cultists got me \nlorem ipsum dolor e 
 			"Dear Scarlett\n send feet pics",
 			"Dear Lawrence,\n why are you in Arabia?"];
 
+currentEntry = 0;
