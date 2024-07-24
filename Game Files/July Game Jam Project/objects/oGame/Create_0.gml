@@ -1,3 +1,6 @@
+var previousLevel = rTitleMenu; 
+//this is here so the game knows which point to return to after finishing in the inventory or journal
+
 //Create menu at game init
 Menu(
     83, //x position

@@ -5,6 +5,7 @@ keyUp = keyboard_check(vk_up) || keyboard_check(ord("W"));
 keyDown = keyboard_check(vk_down) || keyboard_check(ord("S"));
 keyActivate = keyboard_check_pressed(ord("E"));
 keyItem = keyboard_check_pressed(vk_control);
+keyInventory = keyboard_check_pressed(ord("J"));
 
 // Player Direction
 inputDirection = point_direction(0, 0, keyRight - keyLeft, keyDown - keyUp);

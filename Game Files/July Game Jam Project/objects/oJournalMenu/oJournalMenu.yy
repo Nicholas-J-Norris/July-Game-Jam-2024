@@ -1,18 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"oGame",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oJournalMenu",
+  "eventList":[],
   "managed":true,
-  "name":"oGame",
+  "name":"oJournalMenu",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
-  "persistent":true,
+  "parentObjectId":{
+    "name":"oMenu",
+    "path":"objects/oMenu/oMenu.yy",
+  },
+  "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -29,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"sMenuBox",
+    "path":"sprites/sMenuBox/sMenuBox.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
