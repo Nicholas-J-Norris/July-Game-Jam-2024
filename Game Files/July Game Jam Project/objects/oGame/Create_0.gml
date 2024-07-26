@@ -9,3 +9,7 @@ Menu(
     ],
     "Choose your fate:"
 );
+
+
+//Pause screen logic 
+global.paused = false;
