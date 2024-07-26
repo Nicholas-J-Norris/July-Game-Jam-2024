@@ -1,7 +1,6 @@
 state = PlayerStateFree;
 
-//Sprite depth
-depth = 0;
+
 
 //Get layer ID for Collision
 collisionMap = layer_tilemap_get_id(layer_get_id("Collision"));

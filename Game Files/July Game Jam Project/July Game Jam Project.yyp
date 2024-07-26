@@ -71,6 +71,8 @@
     {"id":{"name":"sPath","path":"sprites/sPath/sPath.yy",},},
     {"id":{"name":"sPauseMenu","path":"sprites/sPauseMenu/sPauseMenu.yy",},},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sPlayer2","path":"sprites/sPlayer2/sPlayer2.yy",},},
+    {"id":{"name":"sPlayer3","path":"sprites/sPlayer3/sPlayer3.yy",},},
     {"id":{"name":"sPlayerRoll","path":"sprites/sPlayerRoll/sPlayerRoll.yy",},},
     {"id":{"name":"sPlayerRun","path":"sprites/sPlayerRun/sPlayerRun.yy",},},
     {"id":{"name":"sQuit","path":"sprites/sQuit/sQuit.yy",},},

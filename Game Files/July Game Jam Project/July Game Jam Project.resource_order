@@ -46,6 +46,8 @@
     {"name":"sMenuBox","order":12,"path":"sprites/sMenuBox/sMenuBox.yy",},
     {"name":"sPath","order":7,"path":"sprites/sPath/sPath.yy",},
     {"name":"sPauseMenu","order":3,"path":"sprites/sPauseMenu/sPauseMenu.yy",},
+    {"name":"sPlayer2","order":18,"path":"sprites/sPlayer2/sPlayer2.yy",},
+    {"name":"sPlayer3","order":19,"path":"sprites/sPlayer3/sPlayer3.yy",},
     {"name":"sPlayerRoll","order":6,"path":"sprites/sPlayerRoll/sPlayerRoll.yy",},
     {"name":"sPlayerRun","order":1,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
     {"name":"sRestart","order":1,"path":"sprites/sRestart/sRestart.yy",},
