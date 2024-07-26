@@ -13,9 +13,9 @@ image_speed = 0;
 //Walking Speed
 hSpeed = 0;
 vSpeed = 0;
-speedWalk = 1.25;
-speedRoll = 2.0;
-distanceRoll = 25;
+speedWalk = 2.0;
+speedRoll = 3.0;
+distanceRoll = 35;
 
 spriteRoll = sPlayerRoll;
 spriteRun = sPlayerRun;

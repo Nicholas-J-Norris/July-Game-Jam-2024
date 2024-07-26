@@ -16,7 +16,5 @@ if (!global.paused)
 
 	script_execute(state);
 
-	// Update Player Position
-	x += hSpeed;
-	y += vSpeed;
+	
 	}
