@@ -1,0 +1,1 @@
+with(oResumeButton) instance_destroy();

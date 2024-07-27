@@ -1,0 +1,1 @@
+with(oRestartButton) instance_destroy();

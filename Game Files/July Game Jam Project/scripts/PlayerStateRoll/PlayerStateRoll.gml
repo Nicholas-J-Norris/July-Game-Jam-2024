@@ -6,6 +6,9 @@ function PlayerStateRoll()
 	moveDistanceRemaining = max(0, moveDistanceRemaining - speedRoll);
 	var _collided = PlayerCollision();
 	
+	
+depth = -y;
+
 	//Update sprite
 	sprite_index = spriteRoll;
 	var _totalFrames = sprite_get_number(sprite_index)/4

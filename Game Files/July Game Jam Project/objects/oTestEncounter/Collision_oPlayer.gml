@@ -1,0 +1,1 @@
+NewEncounter([global.enemies.sTestEnconter, global.enemies.sTestEncounter], sBattleBackground);

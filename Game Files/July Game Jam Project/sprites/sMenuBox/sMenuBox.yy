@@ -19,7 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"2796e034-deb9-4379-9090-35207239e9e9","blendMode":0,"displayName":"default","isLocked":false,"name":"2796e034-deb9-4379-9090-35207239e9e9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2796e034-deb9-4379-9090-35207239e9e9","blendMode":0,"displayName":"default","isLocked":false,"name":"2796e034-deb9-4379-9090-35207239e9e9","opacity":85.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sMenuBox",
   "nineSlice":{
