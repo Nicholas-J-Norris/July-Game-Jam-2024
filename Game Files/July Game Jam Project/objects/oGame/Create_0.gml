@@ -13,3 +13,7 @@ Menu(
 
 //Pause screen logic 
 global.paused = false;
+
+
+//Create manager objects
+global.iCamera = instance_create_layer(0,0,layer,oCamera);

@@ -1,4 +1,7 @@
 /*
+
+
+
 //Party data
 global.party = 
 [
@@ -57,7 +60,7 @@ global.enemies =
 		strength: 3,
 		intelligence: 0,
 		dexterity: 3,
-		sprites : { idle: sTestEncounter, attack: sWolfNormAttack},
+		sprites : { idle: sTestEncounter, attack: sTestAttack},
 		actions : [],
 		xpValue : 15,
 		AIscript : function()

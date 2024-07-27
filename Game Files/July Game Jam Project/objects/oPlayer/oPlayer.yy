@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oGame",
+  "%Name":"oPlayer",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oGame",
+  "name":"oPlayer",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controllers and Managers",
-    "path":"folders/Objects/Controllers and Managers.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +30,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"sPlayer",
+    "path":"sprites/sPlayer/sPlayer.yy",
+  },
+  "spriteMaskId":{
+    "name":"sPlayer",
+    "path":"sprites/sPlayer/sPlayer.yy",
+  },
   "visible":true,
 }

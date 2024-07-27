@@ -1,6 +1,6 @@
 // In obj_pause_menu's Create event
 
-depth = -100;
+depth = -900;
 
 // Adjust these values to position the buttons
 var menu_center_x = x + 117;  // X-coordinate center of the pause menu
