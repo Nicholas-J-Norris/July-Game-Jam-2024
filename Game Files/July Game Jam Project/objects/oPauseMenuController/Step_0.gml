@@ -2,7 +2,7 @@ if(global.paused == true)
 {
     // Retrieve the camera ID
     var cam = view_camera[0];
-
+	
     // Get the camera position and size
     var camera_x = camera_get_view_x(cam);
     var camera_y = camera_get_view_y(cam);
