@@ -8,8 +8,8 @@
   "name":"oRuins1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"TreesRocksRuins",
+    "path":"folders/Objects/TreesRocksRuins.yy",
   },
   "parentObjectId":null,
   "persistent":false,

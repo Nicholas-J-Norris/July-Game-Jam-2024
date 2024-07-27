@@ -10,8 +10,8 @@
   "name":"oMenu",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Controllers and Managers",
+    "path":"folders/Objects/Controllers and Managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,6 +1,4 @@
-// In obj_pause_menu's Create event
-
-depth = -900;
+depth = -9990;
 
 // Adjust these values to position the buttons
 var menu_center_x = x + 117;  // X-coordinate center of the pause menu
@@ -16,5 +14,3 @@ instance_create_layer(menu_center_x + button_spacing_horizontal / 2, button_y_st
 
 // Create the quit button centered below the first row
 instance_create_layer(menu_center_x, button_y_quit, "Instances", oQuitButton);
-
-
