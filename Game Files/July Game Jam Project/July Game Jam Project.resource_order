@@ -22,6 +22,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"oCamera","order":3,"path":"objects/oCamera/oCamera.yy",},
+    {"name":"oFade","order":4,"path":"objects/oFade/oFade.yy",},
     {"name":"oGame","order":1,"path":"objects/oGame/oGame.yy",},
     {"name":"oInventory","order":1,"path":"objects/oInventory/oInventory.yy",},
     {"name":"oMenu","order":3,"path":"objects/oMenu/oMenu.yy",},
@@ -44,6 +45,7 @@
     {"name":"PlayerStateFree","order":3,"path":"scripts/PlayerStateFree/PlayerStateFree.yy",},
     {"name":"PlayerStateRoll","order":4,"path":"scripts/PlayerStateRoll/PlayerStateRoll.yy",},
     {"name":"sBattleBackground","order":21,"path":"sprites/sBattleBackground/sBattleBackground.yy",},
+    {"name":"sBlack64x64","order":25,"path":"sprites/sBlack64x64/sBlack64x64.yy",},
     {"name":"sCollision","order":5,"path":"sprites/sCollision/sCollision.yy",},
     {"name":"sGrass1","order":8,"path":"sprites/sGrass1/sGrass1.yy",},
     {"name":"sGrass2","order":9,"path":"sprites/sGrass2/sGrass2.yy",},
@@ -58,6 +60,7 @@
     {"name":"sPlayer3","order":2,"path":"sprites/sPlayer3/sPlayer3.yy",},
     {"name":"sPlayerRoll","order":3,"path":"sprites/sPlayerRoll/sPlayerRoll.yy",},
     {"name":"sPlayerRun","order":4,"path":"sprites/sPlayerRun/sPlayerRun.yy",},
+    {"name":"Sprite24","order":24,"path":"sprites/Sprite24/Sprite24.yy",},
     {"name":"sRestart","order":1,"path":"sprites/sRestart/sRestart.yy",},
     {"name":"sResume","order":2,"path":"sprites/sResume/sResume.yy",},
     {"name":"sRuins1","order":17,"path":"sprites/sRuins1/sRuins1.yy",},
